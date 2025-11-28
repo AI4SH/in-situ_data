@@ -1,0 +1,47 @@
+{
+  "campaign": "ai4sh_fi-jokioinen",
+  "sampling_log": {
+    "name": "fi-jokioinen-20241010",
+    "date_stamp": "20241010",
+    "person__email": "thomasg@xspectre.com"
+  },
+  "sample": "fi-jokioinen-20241010_6-r_0-20",
+  "locus": {
+    "position__name": "fi-jokioinen_6-r",
+    "point": "6-r",
+    "setting": "uniform",
+    "latitude": 60.853548993,
+    "longitude": 23.466646434,
+    "min_depth": 0,
+    "max_depth": 20
+  },
+  "observation": {
+    "sample_preparation__name": "mixed-untreated-soil-in-lab",
+    "person__email": "thomasg@xspectre.com",
+    "subsample": "e",
+    "replicate": 0,
+    "n_repeats": 6,
+    "date_stamp": "20241011",
+    "logistic": {
+      "sample_preservation__name": null,
+      "sample_transport__name": null,
+      "transport_duration_h": 0,
+      "sample_storage__name": null,
+      "storage_duration_h": 24,
+      "person__email": "thomasg@xspectre.com"
+    },
+    "analysis": {
+      "ph": {
+        "value": 5.906,
+        "standard_deviation": 0.0,
+        "unit__name": "pH",
+        "indicator__name": "ph",
+        "procedure": "xspectre-ise-ph",
+        "analysis_method__name": "ise-ph-5xh20",
+        "instrument-brand__name": "water-ise",
+        "instrument-model__name": "tf38415",
+        "instrument_id": "0"
+      }
+    }
+  }
+}

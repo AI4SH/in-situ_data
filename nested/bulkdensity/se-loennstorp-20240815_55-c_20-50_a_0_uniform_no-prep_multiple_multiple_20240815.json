@@ -1,0 +1,79 @@
+{
+  "data_source": [
+    {
+      "name": "ai4sh_se-loennstorp",
+      "site": [
+        {
+          "name": "se-loennstorp",
+          "point": [
+            {
+              "name": "55-c",
+              "latitude": 55.6671111111111,
+              "longitude": 13.1156944444444,
+              "setting": "uniform",
+              "sampling_log": [
+                {
+                  "name": "se-loennstorp-20240815",
+                  "date_stamp": "20240815",
+                  "person__email": "sampling@gmail.com",
+                  "sample": [
+                    {
+                      "name": "se-loennstorp-20240815_55-c_20-50",
+                      "min_depth": 20,
+                      "max_depth": 50,
+                      "observation": [
+                        {
+                          "sample_preparation__name": "soil-undisturbed-in-situ",
+                          "person__email": "analysis@gmail.com",
+                          "subsample": "a",
+                          "replicate": 0,
+                          "n_repeats": 1,
+                          "date_stamp": "20240815",
+                          "logistic": {
+                            "sample_preservation__name": null,
+                            "sample_transport__name": null,
+                            "transport_duration_h": 0,
+                            "sample_storage__name": null,
+                            "storage_duration_h": 0,
+                            "person__email": "logistic@gmail.com"
+                          },
+                          "analysis_method": {
+                            "soil-cylinder+drying@105c": [
+                              {
+                                "soil-cylinder": [
+                                  {
+                                    "value": 0.0917181415938564,
+                                    "unit__name": "vol*vol^-1",
+                                    "indicator__name": "water content",
+                                    "analysis_method__name": "soil-cylinder-water content",
+                                    "instrument-brand__name": "soil-cylinder-water content",
+                                    "instrument-model__name": "0",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 1.40308185840614,
+                                    "unit__name": "g*cm^-3",
+                                    "indicator__name": "bulk density",
+                                    "procedure": "soil-cylinder-bulk density",
+                                    "analysis_method__name": "soil-cylinder-bulk density",
+                                    "instrument-brand__name": "soil-cylinder-bulk density",
+                                    "instrument-model__name": "0",
+                                    "instrument_id": "0"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

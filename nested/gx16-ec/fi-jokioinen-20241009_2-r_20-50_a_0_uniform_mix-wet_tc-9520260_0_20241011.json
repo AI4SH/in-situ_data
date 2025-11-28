@@ -1,0 +1,66 @@
+{
+  "data_source": [
+    {
+      "name": "ai4sh_fi-jokioinen",
+      "site": [
+        {
+          "name": "fi-jokioinen",
+          "point": [
+            {
+              "name": "2-r",
+              "latitude": 60.804267525,
+              "longitude": 23.450553159,
+              "setting": "uniform",
+              "sampling_log": [
+                {
+                  "name": "fi-jokioinen-20241009",
+                  "date_stamp": "20241009",
+                  "person__email": "thomasg@xspectre.com",
+                  "sample": [
+                    {
+                      "name": "fi-jokioinen-20241009_2-r_20-50",
+                      "min_depth": 20,
+                      "max_depth": 50,
+                      "observation": [
+                        {
+                          "sample_preparation__name": "mixed-untreated-soil-in-lab",
+                          "person__email": "thomasg@xspectre.com",
+                          "subsample": "a",
+                          "replicate": 0,
+                          "n_repeats": 6,
+                          "date_stamp": "20241011",
+                          "logistic": {
+                            "sample_preservation__name": null,
+                            "sample_transport__name": null,
+                            "transport_duration_h": 0,
+                            "sample_storage__name": null,
+                            "storage_duration_h": 48,
+                            "person__email": "thomasg@xspectre.com"
+                          },
+                          "analysis_method": {
+                            "xspectre-gx16-ec": [
+                              {
+                                "value": 0.1691666666666667,
+                                "standard_deviation": 0.005178212904940174,
+                                "unit__name": "ppm",
+                                "indicator__name": "tds",
+                                "analysis_method__name": "tds-bipin-5xh2o",
+                                "instrument-brand__name": "iduino",
+                                "instrument-model__name": "tc-9520260",
+                                "instrument_id": "0"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

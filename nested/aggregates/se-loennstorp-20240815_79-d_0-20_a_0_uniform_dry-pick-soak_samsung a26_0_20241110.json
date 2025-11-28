@@ -1,0 +1,69 @@
+{
+  "data_source": [
+    {
+      "name": "ai4sh_se-loennstorp",
+      "site": [
+        {
+          "name": "se-loennstorp",
+          "point": [
+            {
+              "name": "79-d",
+              "latitude": 55.6663916666666,
+              "longitude": 13.1169472222222,
+              "setting": "uniform",
+              "sampling_log": [
+                {
+                  "name": "se-loennstorp-20240815",
+                  "date_stamp": "20240815",
+                  "person__email": "sampling@gmail.com",
+                  "sample": [
+                    {
+                      "name": "se-loennstorp-20240815_79-d_0-20",
+                      "min_depth": 0,
+                      "max_depth": 20,
+                      "observation": [
+                        {
+                          "sample_preparation__name": "dried-aggregate-select+soaked",
+                          "person__email": "analysis@gmail.com",
+                          "subsample": "a",
+                          "replicate": 0,
+                          "n_repeats": 1,
+                          "date_stamp": "20241110",
+                          "logistic": {
+                            "sample_preservation__name": "dried",
+                            "sample_transport__name": null,
+                            "transport_duration_h": 0,
+                            "sample_storage__name": null,
+                            "storage_duration_h": 2088,
+                            "person__email": "logistic@gmail.com"
+                          },
+                          "analysis_method": {
+                            "slakes": [
+                              {
+                                "slakes app": [
+                                  {
+                                    "value": 0.62,
+                                    "unit__name": "index",
+                                    "indicator__name": "aggregate stability index",
+                                    "analysis_method__name": "slakes app-aggregate stability index",
+                                    "instrument-brand__name": "slakes app-aggregate stability index",
+                                    "instrument-model__name": "samsung a26",
+                                    "instrument_id": "0"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

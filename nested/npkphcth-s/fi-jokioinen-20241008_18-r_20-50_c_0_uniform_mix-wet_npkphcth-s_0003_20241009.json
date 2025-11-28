@@ -1,0 +1,146 @@
+{
+  "data_source": [
+    {
+      "name": "ai4sh_fi-jokioinen",
+      "site": [
+        {
+          "name": "fi-jokioinen",
+          "point": [
+            {
+              "name": "18-r",
+              "latitude": 60.813728968,
+              "longitude": 23.492095871,
+              "setting": "uniform",
+              "sampling_log": [
+                {
+                  "name": "fi-jokioinen-20241008",
+                  "date_stamp": "20241008",
+                  "person__email": "thomasg@xspectre.com",
+                  "sample": [
+                    {
+                      "name": "fi-jokioinen-20241008_18-r_20-50",
+                      "min_depth": 20,
+                      "max_depth": 50,
+                      "observation": [
+                        {
+                          "sample_preparation__name": "mixed-untreated-soil-in-lab",
+                          "person__email": "thomasg@xspectre.com",
+                          "subsample": "c",
+                          "replicate": 0,
+                          "n_repeats": 6,
+                          "date_stamp": "20241009",
+                          "logistic": {
+                            "sample_preservation__name": null,
+                            "sample_transport__name": null,
+                            "transport_duration_h": 0,
+                            "sample_storage__name": null,
+                            "storage_duration_h": 24,
+                            "person__email": "thomasg@xspectre.com"
+                          },
+                          "analysis_method": {
+                            "xspectre-penetrometer": [
+                              {
+                                "value": 15.200000000000001,
+                                "standard_deviation": 0.11547005383792552,
+                                "unit__name": "C",
+                                "indicator__name": "temperature",
+                                "analysis_method__name": "penetrometer",
+                                "instrument-brand__name": "comwintop",
+                                "instrument-model__name": "npkphcth-s",
+                                "instrument_id": "0003"
+                              },
+                              {
+                                "value": 11.733333333333334,
+                                "standard_deviation": 0.43076159944400294,
+                                "unit__name": "vol*vol-1",
+                                "indicator__name": "sm",
+                                "analysis_method__name": "penetrometer",
+                                "instrument-brand__name": "comwintop",
+                                "instrument-model__name": "npkphcth-s",
+                                "instrument_id": "0003"
+                              },
+                              {
+                                "value": 28.0,
+                                "standard_deviation": 0.0,
+                                "unit__name": "us*cm-1",
+                                "indicator__name": "ec",
+                                "analysis_method__name": "penetrometer",
+                                "instrument-brand__name": "comwintop",
+                                "instrument-model__name": "npkphcth-s",
+                                "instrument_id": "0003"
+                              },
+                              {
+                                "value": 6.25,
+                                "standard_deviation": 0.15000000000000016,
+                                "unit__name": "pH",
+                                "indicator__name": "ph",
+                                "analysis_method__name": "penetrometer",
+                                "instrument-brand__name": "comwintop",
+                                "instrument-model__name": "npkphcth-s",
+                                "instrument_id": "0003"
+                              },
+                              {
+                                "value": 86.0,
+                                "standard_deviation": 0.0,
+                                "unit__name": "mg*l-1",
+                                "indicator__name": "nitrogen",
+                                "analysis_method__name": "penetrometer",
+                                "instrument-brand__name": "comwintop",
+                                "instrument-model__name": "npkphcth-s",
+                                "instrument_id": "0003"
+                              },
+                              {
+                                "value": 20.0,
+                                "standard_deviation": 0.0,
+                                "unit__name": "mg*l-1",
+                                "indicator__name": "phosphorus",
+                                "analysis_method__name": "penetrometer",
+                                "instrument-brand__name": "comwintop",
+                                "instrument-model__name": "npkphcth-s",
+                                "instrument_id": "0003"
+                              },
+                              {
+                                "value": 93.66666666666667,
+                                "standard_deviation": 0.4714045207910317,
+                                "unit__name": "mg*l-1",
+                                "indicator__name": "potassium",
+                                "analysis_method__name": "penetrometer",
+                                "instrument-brand__name": "comwintop",
+                                "instrument-model__name": "npkphcth-s",
+                                "instrument_id": "0003"
+                              },
+                              {
+                                "value": 155.66666666666666,
+                                "standard_deviation": 0.4714045207910317,
+                                "unit__name": "mg*l-1",
+                                "indicator__name": "salinity",
+                                "analysis_method__name": "penetrometer",
+                                "instrument-brand__name": "comwintop",
+                                "instrument-model__name": "npkphcth-s",
+                                "instrument_id": "0003"
+                              },
+                              {
+                                "value": 142.0,
+                                "standard_deviation": 0.0,
+                                "unit__name": "mg*l-1",
+                                "indicator__name": "tds",
+                                "analysis_method__name": "penetrometer",
+                                "instrument-brand__name": "comwintop",
+                                "instrument-model__name": "npkphcth-s",
+                                "instrument_id": "0003"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

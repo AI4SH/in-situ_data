@@ -1,0 +1,66 @@
+{
+  "campaign": "ai4sh_se-loennstorp",
+  "sampling_log": {
+    "name": "se-loennstorp-20240815",
+    "date_stamp": "20240815",
+    "person__email": "sampling@gmail.com"
+  },
+  "sample": "se-loennstorp-20240815_4-organic_0-20",
+  "locus": {
+    "position__name": "se-loennstorp_4-organic",
+    "point": "4-organic",
+    "setting": "uniform",
+    "latitude": 55.6495333333333,
+    "longitude": 13.0796333333333,
+    "min_depth": 0,
+    "max_depth": 20
+  },
+  "observation": {
+    "sample_preparation__name": "mixed-untreated-soil-in-lab",
+    "person__email": "analysis@gmail.com",
+    "subsample": "a",
+    "replicate": 0,
+    "n_repeats": 1,
+    "date_stamp": "20240815",
+    "logistic": {
+      "sample_preservation__name": null,
+      "sample_transport__name": null,
+      "transport_duration_h": 0,
+      "sample_storage__name": null,
+      "storage_duration_h": 0,
+      "person__email": "logistic@gmail.com"
+    },
+    "analysis": {
+      "tot-c": {
+        "value": 744.0,
+        "unit__name": "ug*g^-1",
+        "indicator__name": "tot-c",
+        "procedure": "microbiometer-tot-c",
+        "analysis_method__name": "microbiometer-tot-c",
+        "instrument-brand__name": "microbiometer-tot-c",
+        "instrument-model__name": "classic",
+        "instrument_id": "0"
+      },
+      "fungi": {
+        "value": 60.0,
+        "unit__name": "%",
+        "indicator__name": "fungi",
+        "procedure": "microbiometer-fungi",
+        "analysis_method__name": "microbiometer-fungi",
+        "instrument-brand__name": "microbiometer-fungi",
+        "instrument-model__name": "classic",
+        "instrument_id": "0"
+      },
+      "bacteria": {
+        "value": 40.0,
+        "unit__name": "%",
+        "indicator__name": "bacteria",
+        "procedure": "microbiometer-bacteria",
+        "analysis_method__name": "microbiometer-bacteria",
+        "instrument-brand__name": "microbiometer-bacteria",
+        "instrument-model__name": "classic",
+        "instrument_id": "0"
+      }
+    }
+  }
+}
