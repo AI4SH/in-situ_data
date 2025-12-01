@@ -429,10 +429,10 @@
                                   0.007527736064627855
                                 ],
                                 "unit__name": "reflectance",
-                                "indicator__name": "reflectance",
-                                "analysis_method__name": "diffuse reflectance spectroscopy",
-                                "instrument-brand__name": "hamamatsu",
-                                "instrument-model__name": "c14384ma-01",
+                                "indicator__name": "xspectre-c14384ma-01_reflectance",
+                                "analysis_method__name": "diffuse-reflectance-spectroscopy",
+                                "instrument_brand__name": "hamamatsu",
+                                "instrument_model__name": "c14384ma-01",
                                 "instrument_id": "XYZ"
                               }
                             ]

@@ -1,0 +1,226 @@
+{
+  "campaign": "ai4sh_se-loennstorp",
+  "sampling_log": {
+    "name": "se-loennstorp-20240815",
+    "date_stamp": "20240815",
+    "person__email": "sampling@gmail.com"
+  },
+  "sample": "se-loennstorp-20240815_91-d_0-20",
+  "locus": {
+    "position__name": "se-loennstorp_91-d",
+    "point": "91-d",
+    "setting": "uniform",
+    "latitude": 55.6656666666666,
+    "longitude": 13.1180833333333,
+    "min_depth": 0,
+    "max_depth": 20
+  },
+  "observation": {
+    "sample_preparation__name": "mixed-untreated-soil-in-lab",
+    "person__email": "analysis@gmail.com",
+    "subsample": "a",
+    "replicate": 0,
+    "n_repeats": 1,
+    "date_stamp": "20241110",
+    "logistic": {
+      "sample_preservation__name": "dna shield",
+      "sample_transport__name": "cold",
+      "transport_duration_h": 14,
+      "sample_storage__name": "cold",
+      "storage_duration_h": 2088,
+      "person__email": "logistic@gmail.com"
+    },
+    "analysis": {
+      "metabarcoding_Prokaryotes-alpha-observed-richness": {
+        "value": 1429.0,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Prokaryotes-alpha-observed-richness",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-prokaryotes-alpha-observed-richness",
+        "instrument_brand__name": "edna-prokaryotes-alpha-observed-richness",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Prokaryotes-alpha-chao1-estimated-richness": {
+        "value": 1462.593,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Prokaryotes-alpha-chao1-estimated-richness",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-prokaryotes-alpha-chao1-estimated-richness",
+        "instrument_brand__name": "edna-prokaryotes-alpha-chao1-estimated-richness",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Prokaryotes-alpha-dominance": {
+        "value": 0.014,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Prokaryotes-alpha-dominance",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-prokaryotes-alpha-dominance",
+        "instrument_brand__name": "edna-prokaryotes-alpha-dominance",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Prokaryotes-alpha-pielou-e": {
+        "value": 0.829,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Prokaryotes-alpha-pielou-e",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-prokaryotes-alpha-pielou-e",
+        "instrument_brand__name": "edna-prokaryotes-alpha-pielou-e",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Prokaryotes-alpha-shannon": {
+        "value": 8.687,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Prokaryotes-alpha-shannon",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-prokaryotes-alpha-shannon",
+        "instrument_brand__name": "edna-prokaryotes-alpha-shannon",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Prokaryotes-alpha-simpson": {
+        "value": 0.986,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Prokaryotes-alpha-simpson",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-prokaryotes-alpha-simpson",
+        "instrument_brand__name": "edna-prokaryotes-alpha-simpson",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Prokaryotes-functional-prediction-chemoheterotrophy": {
+        "value": 0.0456533089675,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Prokaryotes-functional-prediction-chemoheterotrophy",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-prokaryotes-functional-prediction-chemoheterotrophy",
+        "instrument_brand__name": "edna-prokaryotes-functional-prediction-chemoheterotrophy",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Prokaryotes-functional-prediction-human-pathogens-all": {
+        "value": 6.52656311187e-05,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Prokaryotes-functional-prediction-human-pathogens-all",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-prokaryotes-functional-prediction-human-pathogens-all",
+        "instrument_brand__name": "edna-prokaryotes-functional-prediction-human-pathogens-all",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Prokaryotes-functional-prediction-nitrogen-fixation": {
+        "value": 0.0,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Prokaryotes-functional-prediction-nitrogen-fixation",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-prokaryotes-functional-prediction-nitrogen-fixation",
+        "instrument_brand__name": "edna-prokaryotes-functional-prediction-nitrogen-fixation",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Fungi-alpha-observed-richness": {
+        "value": 506.0,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Fungi-alpha-observed-richness",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-fungi-alpha-observed-richness",
+        "instrument_brand__name": "edna-fungi-alpha-observed-richness",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Fungi-alpha-chao1-estimated-richness": {
+        "value": 506.294,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Fungi-alpha-chao1-estimated-richness",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-fungi-alpha-chao1-estimated-richness",
+        "instrument_brand__name": "edna-fungi-alpha-chao1-estimated-richness",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Fungi-alpha-dominance": {
+        "value": 0.037,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Fungi-alpha-dominance",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-fungi-alpha-dominance",
+        "instrument_brand__name": "edna-fungi-alpha-dominance",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Fungi-alpha-pielou-e": {
+        "value": 0.704,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Fungi-alpha-pielou-e",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-fungi-alpha-pielou-e",
+        "instrument_brand__name": "edna-fungi-alpha-pielou-e",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Fungi-alpha-shannon": {
+        "value": 6.325,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Fungi-alpha-shannon",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-fungi-alpha-shannon",
+        "instrument_brand__name": "edna-fungi-alpha-shannon",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Fungi-alpha-simpson": {
+        "value": 0.963,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Fungi-alpha-simpson",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-fungi-alpha-simpson",
+        "instrument_brand__name": "edna-fungi-alpha-simpson",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Fungi-funtional-prediction-Ectomycorrhizal-fungi": {
+        "value": 0.00388428314685,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Fungi-funtional-prediction-Ectomycorrhizal-fungi",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-fungi-funtional-prediction-ectomycorrhizal-fungi",
+        "instrument_brand__name": "edna-fungi-funtional-prediction-ectomycorrhizal-fungi",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Fungi-funtional-prediction-Arbuscular-mycorrhizal-fungi": {
+        "value": 0.000734342087464,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Fungi-funtional-prediction-Arbuscular-mycorrhizal-fungi",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-fungi-funtional-prediction-arbuscular-mycorrhizal-fungi",
+        "instrument_brand__name": "edna-fungi-funtional-prediction-arbuscular-mycorrhizal-fungi",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Fungi-funtional-prediction-fungal-saprotrophs": {
+        "value": 0.536997313853786,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Fungi-funtional-prediction-fungal-saprotrophs",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-fungi-funtional-prediction-fungal-saprotrophs",
+        "instrument_brand__name": "edna-fungi-funtional-prediction-fungal-saprotrophs",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      },
+      "metabarcoding_Fungi-funtional-prediction-fungal-plant-pathogens": {
+        "value": 0.235762459659484,
+        "unit__name": "unitless",
+        "indicator__name": "metabarcoding_Fungi-funtional-prediction-fungal-plant-pathogens",
+        "procedure": "metabarcoding",
+        "analysis_method__name": "edna-fungi-funtional-prediction-fungal-plant-pathogens",
+        "instrument_brand__name": "edna-fungi-funtional-prediction-fungal-plant-pathogens",
+        "instrument_model__name": "metabarcoding-chain",
+        "instrument_id": "0"
+      }
+    }
+  }
+}

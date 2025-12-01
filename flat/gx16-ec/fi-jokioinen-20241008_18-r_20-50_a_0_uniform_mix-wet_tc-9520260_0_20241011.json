@@ -31,15 +31,15 @@
       "person__email": "thomasg@xspectre.com"
     },
     "analysis": {
-      "tds": {
+      "xspectre-gx16-ec_total-dissolved-solids": {
         "value": 0.11235,
         "standard_deviation": 0.0039906139878469835,
         "unit__name": "ppm",
-        "indicator__name": "tds",
+        "indicator__name": "xspectre-gx16-ec_total-dissolved-solids",
         "procedure": "xspectre-gx16-ec",
         "analysis_method__name": "tds-bipin-5xh2o",
-        "instrument-brand__name": "iduino",
-        "instrument-model__name": "tc-9520260",
+        "instrument_brand__name": "iduino",
+        "instrument_model__name": "tc-9520260",
         "instrument_id": "0"
       }
     }

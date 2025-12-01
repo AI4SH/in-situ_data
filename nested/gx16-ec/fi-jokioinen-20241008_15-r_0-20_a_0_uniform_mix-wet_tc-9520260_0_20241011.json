@@ -43,10 +43,10 @@
                                 "value": 0.10558333333333333,
                                 "standard_deviation": 0.004715989350661807,
                                 "unit__name": "ppm",
-                                "indicator__name": "tds",
+                                "indicator__name": "xspectre-gx16-ec_total-dissolved-solids",
                                 "analysis_method__name": "tds-bipin-5xh2o",
-                                "instrument-brand__name": "iduino",
-                                "instrument-model__name": "tc-9520260",
+                                "instrument_brand__name": "iduino",
+                                "instrument_model__name": "tc-9520260",
                                 "instrument_id": "0"
                               }
                             ]

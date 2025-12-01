@@ -31,7 +31,7 @@
       "person__email": "logistic@gmail.com"
     },
     "analysis": {
-      "spectra": {
+      "foss-ds2500-scan_reflectance": {
         "value": [
           0.34643155927213126,
           0.3463207189085682,
@@ -4235,11 +4235,11 @@
           0.6600326338214656
         ],
         "unit__name": "reflectance",
-        "indicator__name": "spectra",
+        "indicator__name": "foss-ds2500-scan_reflectance",
         "procedure": "foss-ds2500-scan",
-        "analysis_method__name": "diffuse spectral spectroscopy",
-        "instrument-brand__name": "foss",
-        "instrument-model__name": "ds2500",
+        "analysis_method__name": "diffuse-reflectance-spectroscopy",
+        "instrument_brand__name": "foss",
+        "instrument_model__name": "ds2500",
         "instrument_id": "au"
       }
     }

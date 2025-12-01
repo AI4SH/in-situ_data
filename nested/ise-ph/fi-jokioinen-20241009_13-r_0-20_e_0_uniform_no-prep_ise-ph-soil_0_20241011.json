@@ -1,0 +1,66 @@
+{
+  "data_source": [
+    {
+      "name": "ai4sh_fi-jokioinen",
+      "site": [
+        {
+          "name": "fi-jokioinen",
+          "point": [
+            {
+              "name": "13-r",
+              "latitude": 60.796671723,
+              "longitude": 23.455226495,
+              "setting": "uniform",
+              "sampling_log": [
+                {
+                  "name": "fi-jokioinen-20241009",
+                  "date_stamp": "20241009",
+                  "person__email": "thomasg@xspectre.com",
+                  "sample": [
+                    {
+                      "name": "fi-jokioinen-20241009_13-r_0-20",
+                      "min_depth": 0,
+                      "max_depth": 20,
+                      "observation": [
+                        {
+                          "sample_preparation__name": "soil-undisturbed-in-situ",
+                          "person__email": "thomasg@xspectre.com",
+                          "subsample": "e",
+                          "replicate": 0,
+                          "n_repeats": 6,
+                          "date_stamp": "20241011",
+                          "logistic": {
+                            "sample_preservation__name": null,
+                            "sample_transport__name": null,
+                            "transport_duration_h": 0,
+                            "sample_storage__name": null,
+                            "storage_duration_h": 48,
+                            "person__email": "thomasg@xspectre.com"
+                          },
+                          "analysis_method": {
+                            "xspectre-ise-ph-solid": [
+                              {
+                                "value": 6.85,
+                                "standard_deviation": 0.0,
+                                "unit__name": "pH",
+                                "indicator__name": "xspectre-ise-ph-solid_ph(soil)",
+                                "analysis_method__name": "ise-ph-soil",
+                                "instrument_brand__name": "soil-ise-ph",
+                                "instrument_model__name": "ise-ph-soil",
+                                "instrument_id": "0"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

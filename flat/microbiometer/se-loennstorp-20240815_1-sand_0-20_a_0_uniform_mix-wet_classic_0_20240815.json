@@ -1,0 +1,66 @@
+{
+  "campaign": "ai4sh_se-loennstorp",
+  "sampling_log": {
+    "name": "se-loennstorp-20240815",
+    "date_stamp": "20240815",
+    "person__email": "sampling@gmail.com"
+  },
+  "sample": "se-loennstorp-20240815_1-sand_0-20",
+  "locus": {
+    "position__name": "se-loennstorp_1-sand",
+    "point": "1-sand",
+    "setting": "uniform",
+    "latitude": 55.6584,
+    "longitude": 13.0588638888888,
+    "min_depth": 0,
+    "max_depth": 20
+  },
+  "observation": {
+    "sample_preparation__name": "mixed-untreated-soil-in-lab",
+    "person__email": "analysis@gmail.com",
+    "subsample": "a",
+    "replicate": 0,
+    "n_repeats": 1,
+    "date_stamp": "20240815",
+    "logistic": {
+      "sample_preservation__name": null,
+      "sample_transport__name": null,
+      "transport_duration_h": 0,
+      "sample_storage__name": null,
+      "storage_duration_h": 0,
+      "person__email": "logistic@gmail.com"
+    },
+    "analysis": {
+      "microbiometer_Microbial-C": {
+        "value": 843.0,
+        "unit__name": "ug*g^-1",
+        "indicator__name": "microbiometer_Microbial-C",
+        "procedure": "microbiometer",
+        "analysis_method__name": "microbiometer",
+        "instrument_brand__name": "microbiometer",
+        "instrument_model__name": "classic",
+        "instrument_id": "0"
+      },
+      "microbiometer_fungi-fraction": {
+        "value": 63.0,
+        "unit__name": "%",
+        "indicator__name": "microbiometer_fungi-fraction",
+        "procedure": "microbiometer",
+        "analysis_method__name": "microbiometer",
+        "instrument_brand__name": "microbiometer",
+        "instrument_model__name": "classic",
+        "instrument_id": "0"
+      },
+      "microbiometer_bacteria-fraction": {
+        "value": 37.0,
+        "unit__name": "%",
+        "indicator__name": "microbiometer_bacteria-fraction",
+        "procedure": "microbiometer",
+        "analysis_method__name": "microbiometer",
+        "instrument_brand__name": "microbiometer",
+        "instrument_model__name": "classic",
+        "instrument_id": "0"
+      }
+    }
+  }
+}

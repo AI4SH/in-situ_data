@@ -4243,10 +4243,10 @@
                                   0.6468214426027998
                                 ],
                                 "unit__name": "reflectance",
-                                "indicator__name": "spectra",
-                                "analysis_method__name": "diffuse spectral spectroscopy",
-                                "instrument-brand__name": "foss",
-                                "instrument-model__name": "ds2500",
+                                "indicator__name": "foss-ds2500-scan_reflectance",
+                                "analysis_method__name": "diffuse-reflectance-spectroscopy",
+                                "instrument_brand__name": "foss",
+                                "instrument_model__name": "ds2500",
                                 "instrument_id": "au"
                               }
                             ]

@@ -1,0 +1,46 @@
+{
+  "campaign": "ai4sh_se-loennstorp",
+  "sampling_log": {
+    "name": "se-loennstorp-20240815",
+    "date_stamp": "20240815",
+    "person__email": "sampling@gmail.com"
+  },
+  "sample": "se-loennstorp-20240815_60-c_0-20",
+  "locus": {
+    "position__name": "se-loennstorp_60-c",
+    "point": "60-c",
+    "setting": "uniform",
+    "latitude": 55.66735,
+    "longitude": 13.1142222222222,
+    "min_depth": 0,
+    "max_depth": 20
+  },
+  "observation": {
+    "sample_preparation__name": "dried-aggregate-select+soaked",
+    "person__email": "analysis@gmail.com",
+    "subsample": "a",
+    "replicate": 0,
+    "n_repeats": 1,
+    "date_stamp": "20241110",
+    "logistic": {
+      "sample_preservation__name": "dried",
+      "sample_transport__name": null,
+      "transport_duration_h": 0,
+      "sample_storage__name": null,
+      "storage_duration_h": 2088,
+      "person__email": "logistic@gmail.com"
+    },
+    "analysis": {
+      "slakes_aggregate-stability-index": {
+        "value": 0.6,
+        "unit__name": "index",
+        "indicator__name": "slakes_aggregate-stability-index",
+        "procedure": "slakes",
+        "analysis_method__name": "slakes",
+        "instrument_brand__name": "smartphone",
+        "instrument_model__name": "slakes+samsung-a26",
+        "instrument_id": "0"
+      }
+    }
+  }
+}

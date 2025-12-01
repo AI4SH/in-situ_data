@@ -1,0 +1,47 @@
+{
+  "campaign": "ai4sh_fi-jokioinen",
+  "sampling_log": {
+    "name": "fi-jokioinen-20241008",
+    "date_stamp": "20241008",
+    "person__email": "thomasg@xspectre.com"
+  },
+  "sample": "fi-jokioinen-20241008_14-r_20-50",
+  "locus": {
+    "position__name": "fi-jokioinen_14-r",
+    "point": "14-r",
+    "setting": "uniform",
+    "latitude": 60.815504247,
+    "longitude": 23.505183157,
+    "min_depth": 20,
+    "max_depth": 50
+  },
+  "observation": {
+    "sample_preparation__name": "soil-undisturbed-in-situ",
+    "person__email": "thomasg@xspectre.com",
+    "subsample": "c",
+    "replicate": 0,
+    "n_repeats": 6,
+    "date_stamp": "20241011",
+    "logistic": {
+      "sample_preservation__name": null,
+      "sample_transport__name": null,
+      "transport_duration_h": 0,
+      "sample_storage__name": null,
+      "storage_duration_h": 72,
+      "person__email": "thomasg@xspectre.com"
+    },
+    "analysis": {
+      "xspectre-ise-ph-solid_ph(soil)": {
+        "value": 6.023999999999999,
+        "standard_deviation": 0.0,
+        "unit__name": "pH",
+        "indicator__name": "xspectre-ise-ph-solid_ph(soil)",
+        "procedure": "xspectre-ise-ph-solid",
+        "analysis_method__name": "ise-ph-soil",
+        "instrument_brand__name": "soil-ise-ph",
+        "instrument_model__name": "ise-ph-soil",
+        "instrument_id": "0"
+      }
+    }
+  }
+}

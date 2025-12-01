@@ -1,0 +1,109 @@
+{
+  "data_source": [
+    {
+      "name": "ai4sh_se-loennstorp",
+      "site": [
+        {
+          "name": "se-loennstorp",
+          "point": [
+            {
+              "name": "20-a",
+              "latitude": 55.6683888888888,
+              "longitude": 13.1078888888888,
+              "setting": "uniform",
+              "sampling_log": [
+                {
+                  "name": "se-loennstorp-20240815",
+                  "date_stamp": "20240815",
+                  "person__email": "sampling@gmail.com",
+                  "sample": [
+                    {
+                      "name": "se-loennstorp-20240815_20-a_20-50",
+                      "min_depth": 20,
+                      "max_depth": 50,
+                      "observation": [
+                        {
+                          "sample_preparation__name": "mixed-untreated-soil-in-lab",
+                          "person__email": "analysis@gmail.com",
+                          "subsample": "a",
+                          "replicate": 0,
+                          "n_repeats": 1,
+                          "date_stamp": "20240815",
+                          "logistic": {
+                            "sample_preservation__name": null,
+                            "sample_transport__name": null,
+                            "transport_duration_h": 0,
+                            "sample_storage__name": null,
+                            "storage_duration_h": 0,
+                            "person__email": "logistic@gmail.com"
+                          },
+                          "analysis_method": {
+                            "digit-soil-sear": [
+                              {
+                                "digitsoil": [
+                                  {
+                                    "value": 3.5,
+                                    "unit__name": "pmol*min^-1",
+                                    "indicator__name": "digit-soil-sear_LEU",
+                                    "analysis_method__name": "digit-soil-sear",
+                                    "instrument_brand__name": "digit-soil",
+                                    "instrument_model__name": "bob",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 4.9987,
+                                    "unit__name": "pmol*min^-1",
+                                    "indicator__name": "digit-soil-sear_GLA",
+                                    "procedure": "digit-soil-sear",
+                                    "analysis_method__name": "digit-soil-sear",
+                                    "instrument_brand__name": "digit-soil",
+                                    "instrument_model__name": "bob",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 8.0659,
+                                    "unit__name": "pmol*min^-1",
+                                    "indicator__name": "digit-soil-sear_GLU",
+                                    "procedure": "digit-soil-sear",
+                                    "analysis_method__name": "digit-soil-sear",
+                                    "instrument_brand__name": "digit-soil",
+                                    "instrument_model__name": "bob",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 31.6857,
+                                    "unit__name": "pmol*min^-1",
+                                    "indicator__name": "digit-soil-sear_PHO",
+                                    "procedure": "digit-soil-sear",
+                                    "analysis_method__name": "digit-soil-sear",
+                                    "instrument_brand__name": "digit-soil",
+                                    "instrument_model__name": "bob",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 4.426,
+                                    "unit__name": "pmol*min^-1",
+                                    "indicator__name": "digit-soil-sear_XYL",
+                                    "procedure": "digit-soil-sear",
+                                    "analysis_method__name": "digit-soil-sear",
+                                    "instrument_brand__name": "digit-soil",
+                                    "instrument_model__name": "bob",
+                                    "instrument_id": "0"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

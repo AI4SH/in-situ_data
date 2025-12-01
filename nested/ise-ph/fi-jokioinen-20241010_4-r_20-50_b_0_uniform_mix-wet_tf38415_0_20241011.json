@@ -38,15 +38,15 @@
                             "person__email": "thomasg@xspectre.com"
                           },
                           "analysis_method": {
-                            "xspectre-ise-ph": [
+                            "xspectre-ise-ph-liquid": [
                               {
                                 "value": 6.4959999999999996,
                                 "standard_deviation": 0.0,
                                 "unit__name": "pH",
-                                "indicator__name": "ph",
+                                "indicator__name": "xspectre-ise-ph-liquid_ph(water)",
                                 "analysis_method__name": "ise-ph-5xh20",
-                                "instrument-brand__name": "water-ise",
-                                "instrument-model__name": "tf38415",
+                                "instrument_brand__name": "ise-liquid",
+                                "instrument_model__name": "tf38415",
                                 "instrument_id": "0"
                               }
                             ]

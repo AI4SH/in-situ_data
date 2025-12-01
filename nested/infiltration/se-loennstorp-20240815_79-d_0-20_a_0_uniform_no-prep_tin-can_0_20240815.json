@@ -1,0 +1,159 @@
+{
+  "data_source": [
+    {
+      "name": "ai4sh_se-loennstorp",
+      "site": [
+        {
+          "name": "se-loennstorp",
+          "point": [
+            {
+              "name": "79-d",
+              "latitude": 55.6663916666666,
+              "longitude": 13.1169472222222,
+              "setting": "uniform",
+              "sampling_log": [
+                {
+                  "name": "se-loennstorp-20240815",
+                  "date_stamp": "20240815",
+                  "person__email": "sampling@gmail.com",
+                  "sample": [
+                    {
+                      "name": "se-loennstorp-20240815_79-d_0-20",
+                      "min_depth": 0,
+                      "max_depth": 20,
+                      "observation": [
+                        {
+                          "sample_preparation__name": "soil-undisturbed-in-situ",
+                          "person__email": "analysis@gmail.com",
+                          "subsample": "a",
+                          "replicate": 0,
+                          "n_repeats": 1,
+                          "date_stamp": "20240815",
+                          "logistic": {
+                            "sample_preservation__name": null,
+                            "sample_transport__name": null,
+                            "transport_duration_h": 0,
+                            "sample_storage__name": null,
+                            "storage_duration_h": 0,
+                            "person__email": "logistic@gmail.com"
+                          },
+                          "analysis_method": {
+                            "single-ring-infiltration": [
+                              {
+                                "single-ring infiltration": [
+                                  {
+                                    "value": 0.460377,
+                                    "unit__name": "vol*vol^-1",
+                                    "indicator__name": "single-ring-infiltration_porosity",
+                                    "analysis_method__name": "single-ring-infiltration",
+                                    "instrument_brand__name": "single-ring",
+                                    "instrument_model__name": "tin-can",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 4.00473,
+                                    "unit__name": "m*day^-1",
+                                    "indicator__name": "single-ring-infiltration_final-infiltration-rate",
+                                    "procedure": "single-ring-infiltration",
+                                    "analysis_method__name": "single-ring-infiltration",
+                                    "instrument_brand__name": "single-ring",
+                                    "instrument_model__name": "tin-can",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 0.11127,
+                                    "unit__name": "m*day^-1/2",
+                                    "indicator__name": "single-ring-infiltration_sorptivity",
+                                    "procedure": "single-ring-infiltration",
+                                    "analysis_method__name": "single-ring-infiltration",
+                                    "instrument_brand__name": "single-ring",
+                                    "instrument_model__name": "tin-can",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 3.26187,
+                                    "unit__name": "m*day^-1",
+                                    "indicator__name": "single-ring-infiltration_saturated-hydraulic-conductivity",
+                                    "procedure": "single-ring-infiltration",
+                                    "analysis_method__name": "single-ring-infiltration",
+                                    "instrument_brand__name": "single-ring",
+                                    "instrument_model__name": "tin-can",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 0.133533,
+                                    "unit__name": "vol*vol^-1",
+                                    "indicator__name": "single-ring-infiltration_field-capacity",
+                                    "procedure": "single-ring-infiltration",
+                                    "analysis_method__name": "single-ring-infiltration",
+                                    "instrument_brand__name": "single-ring",
+                                    "instrument_model__name": "tin-can",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 0.0608414,
+                                    "unit__name": "vol*vol^-1",
+                                    "indicator__name": "single-ring-infiltration_plant-available-water",
+                                    "procedure": "single-ring-infiltration",
+                                    "analysis_method__name": "single-ring-infiltration",
+                                    "instrument_brand__name": "single-ring",
+                                    "instrument_model__name": "tin-can",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 0.35,
+                                    "unit__name": "vol*vol^-1",
+                                    "indicator__name": "single-ring-infiltration_saturated-water-content",
+                                    "procedure": "single-ring-infiltration",
+                                    "analysis_method__name": "single-ring-infiltration",
+                                    "instrument_brand__name": "single-ring",
+                                    "instrument_model__name": "tin-can",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 0.00779912,
+                                    "unit__name": "mm",
+                                    "indicator__name": "single-ring-infiltration_hg-water-pressure-head-scale-parameter",
+                                    "procedure": "single-ring-infiltration",
+                                    "analysis_method__name": "single-ring-infiltration",
+                                    "instrument_brand__name": "single-ring",
+                                    "instrument_model__name": "tin-can",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 2.15933,
+                                    "unit__name": "unitless",
+                                    "indicator__name": "single-ring-infiltration_n-shape-parameter-of-retention-curve",
+                                    "procedure": "single-ring-infiltration",
+                                    "analysis_method__name": "single-ring-infiltration",
+                                    "instrument_brand__name": "single-ring",
+                                    "instrument_model__name": "tin-can",
+                                    "instrument_id": "0"
+                                  },
+                                  {
+                                    "value": 0.0737874,
+                                    "unit__name": "unitless",
+                                    "indicator__name": "single-ring-infiltration_m-shape-parameter-of-retention-curve",
+                                    "procedure": "single-ring-infiltration",
+                                    "analysis_method__name": "single-ring-infiltration",
+                                    "instrument_brand__name": "single-ring",
+                                    "instrument_model__name": "tin-can",
+                                    "instrument_id": "0"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "campaign": "ai4sh_se-loennstorp",
+  "sampling_log": {
+    "name": "se-loennstorp-20240815",
+    "date_stamp": "20240815",
+    "person__email": "sampling@gmail.com"
+  },
+  "sample": "se-loennstorp-20240815_55-c_0-20",
+  "locus": {
+    "position__name": "se-loennstorp_55-c",
+    "point": "55-c",
+    "setting": "uniform",
+    "latitude": 55.6671111111111,
+    "longitude": 13.1156944444444,
+    "min_depth": 0,
+    "max_depth": 20
+  },
+  "observation": {
+    "sample_preparation__name": "soil-undisturbed-in-situ",
+    "person__email": "analysis@gmail.com",
+    "subsample": "a",
+    "replicate": 0,
+    "n_repeats": 1,
+    "date_stamp": "20240815",
+    "logistic": {
+      "sample_preservation__name": null,
+      "sample_transport__name": null,
+      "transport_duration_h": 0,
+      "sample_storage__name": null,
+      "storage_duration_h": 0,
+      "person__email": "logistic@gmail.com"
+    },
+    "analysis": {
+      "single-ring-infiltration_porosity": {
+        "value": 0.53,
+        "unit__name": "vol*vol^-1",
+        "indicator__name": "single-ring-infiltration_porosity",
+        "procedure": "single-ring-infiltration",
+        "analysis_method__name": "single-ring-infiltration",
+        "instrument_brand__name": "single-ring",
+        "instrument_model__name": "tin-can",
+        "instrument_id": "0"
+      },
+      "single-ring-infiltration_final-infiltration-rate": {
+        "value": 10.8524,
+        "unit__name": "m*day^-1",
+        "indicator__name": "single-ring-infiltration_final-infiltration-rate",
+        "procedure": "single-ring-infiltration",
+        "analysis_method__name": "single-ring-infiltration",
+        "instrument_brand__name": "single-ring",
+        "instrument_model__name": "tin-can",
+        "instrument_id": "0"
+      },
+      "single-ring-infiltration_sorptivity": {
+        "value": 0.291019,
+        "unit__name": "m*day^-1/2",
+        "indicator__name": "single-ring-infiltration_sorptivity",
+        "procedure": "single-ring-infiltration",
+        "analysis_method__name": "single-ring-infiltration",
+        "instrument_brand__name": "single-ring",
+        "instrument_model__name": "tin-can",
+        "instrument_id": "0"
+      },
+      "single-ring-infiltration_saturated-hydraulic-conductivity": {
+        "value": 7.61166,
+        "unit__name": "m*day^-1",
+        "indicator__name": "single-ring-infiltration_saturated-hydraulic-conductivity",
+        "procedure": "single-ring-infiltration",
+        "analysis_method__name": "single-ring-infiltration",
+        "instrument_brand__name": "single-ring",
+        "instrument_model__name": "tin-can",
+        "instrument_id": "0"
+      },
+      "single-ring-infiltration_field-capacity": {
+        "value": 0.206606,
+        "unit__name": "vol*vol^-1",
+        "indicator__name": "single-ring-infiltration_field-capacity",
+        "procedure": "single-ring-infiltration",
+        "analysis_method__name": "single-ring-infiltration",
+        "instrument_brand__name": "single-ring",
+        "instrument_model__name": "tin-can",
+        "instrument_id": "0"
+      },
+      "single-ring-infiltration_plant-available-water": {
+        "value": 0.0981831,
+        "unit__name": "vol*vol^-1",
+        "indicator__name": "single-ring-infiltration_plant-available-water",
+        "procedure": "single-ring-infiltration",
+        "analysis_method__name": "single-ring-infiltration",
+        "instrument_brand__name": "single-ring",
+        "instrument_model__name": "tin-can",
+        "instrument_id": "0"
+      },
+      "single-ring-infiltration_saturated-water-content": {
+        "value": 0.53,
+        "unit__name": "vol*vol^-1",
+        "indicator__name": "single-ring-infiltration_saturated-water-content",
+        "procedure": "single-ring-infiltration",
+        "analysis_method__name": "single-ring-infiltration",
+        "instrument_brand__name": "single-ring",
+        "instrument_model__name": "tin-can",
+        "instrument_id": "0"
+      },
+      "single-ring-infiltration_hg-water-pressure-head-scale-parameter": {
+        "value": 0.0124932,
+        "unit__name": "mm",
+        "indicator__name": "single-ring-infiltration_hg-water-pressure-head-scale-parameter",
+        "procedure": "single-ring-infiltration",
+        "analysis_method__name": "single-ring-infiltration",
+        "instrument_brand__name": "single-ring",
+        "instrument_model__name": "tin-can",
+        "instrument_id": "0"
+      },
+      "single-ring-infiltration_n-shape-parameter-of-retention-curve": {
+        "value": 2.16893,
+        "unit__name": "unitless",
+        "indicator__name": "single-ring-infiltration_n-shape-parameter-of-retention-curve",
+        "procedure": "single-ring-infiltration",
+        "analysis_method__name": "single-ring-infiltration",
+        "instrument_brand__name": "single-ring",
+        "instrument_model__name": "tin-can",
+        "instrument_id": "0"
+      },
+      "single-ring-infiltration_m-shape-parameter-of-retention-curve": {
+        "value": 0.0778884,
+        "unit__name": "unitless",
+        "indicator__name": "single-ring-infiltration_m-shape-parameter-of-retention-curve",
+        "procedure": "single-ring-infiltration",
+        "analysis_method__name": "single-ring-infiltration",
+        "instrument_brand__name": "single-ring",
+        "instrument_model__name": "tin-can",
+        "instrument_id": "0"
+      }
+    }
+  }
+}
