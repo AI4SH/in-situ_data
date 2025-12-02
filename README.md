@@ -1,6 +1,6 @@
 # AI4SoilHelath in-situ data
 
-The [EU Soil Mission][EUSoilMission] supported project [AI4SoilHealth][AI4SH] includes a component ("work-package") on in-situ soil sampling. In total 13 different methods were tested for in-situ data sampling and analysis. Links to documentation and data for the different methods are available in the left panel and under the short description of each method on this page.
+The [EU Soil Mission][EUSoilMission] supported project [AI4SoilHealth][AI4SH] includes a component ("work-package") on in-situ soil sampling. In total 13 different methods were tested for in-situ data sampling and analysis. This repository contains the AI4SH in-situ database.
 
 ## Data access and organisation
 
@@ -14,7 +14,7 @@ All data is supplied in two different version with different organisation:
 -  flat json object database (ore suitable for direct accessibility), and
 -  nested json object databas (better for converting to sql database).
 
-The the data is found under separate sub-folders under the _flat_ and _nested_ folders. More detailed information on each method is available on the [documentation][https://ai4sh.github.io/in-situ_data_docs/docs/] site. There each method, including expalined examples of the json data is oulined in more detail. Furhter down this README file contains a summary of each method, with links to the respective documentation pages.
+The the data is found under separate sub-folders under the _flat_ and _nested_ folders. More detailed information on each method is available on the [documentation][documentation] site. There each method, including expalined examples of the json data, is oulined in more detail. Furhter down this README file contains a summary of each method, with links to the respective documentation pages.
 
 ### Json objects
 
@@ -73,7 +73,7 @@ The _standard deviation_ object only exists for methods that do repeated measure
 
 ### Difference between subsample, replicate and repetition
 
-The difference between a subsample and a replicate is that if the same physical volume of soil is used for the analysis it is a replicate, but if the analysis is used on a separate physical volume it is a subsample. Thus all destructive analysis methods can per definition not be replicates. repetions (_n_repeats_) refer to the number of scans the insturment performs with each observation. Instruments supplied by the Swedish startup [Xspectre][xspectre] (salinity, pH ISE, penetrometer and 2 different spectrometers) by default run 6 scans and report the results as mean and standard deviation.
+The difference between a subsample and a replicate is that if the same physical volume of soil is used for the analysis it is a replicate, but if the analysis is applied to a separate physical volume it is a subsample. Thus all destructive analysis methods can per definition not be replicates. Repetions (_n_repeats_) refer to the number of scans the insturment performs with each observation. Instruments supplied by the Swedish startup [Xspectre][xspectre] (salinity, pH ISE, penetrometer and 2 different spectrometers) by default run 6 scans and report the results as mean and standard deviation.
 
 ## Sample sites
 
@@ -107,13 +107,13 @@ The methods applied for the in-situ data collection within AI4SH can broadly be 
 
 For all in-situ sites traditional, or "wet", chemicophysical laboratory methods were used as a reference frame for evaluating the suite of alternative and novel methods tested. Most of the collected samples were analysed at the same laboratory, applying the same method for all samples. Only the initial test-sampling at the Greece site Ktima-Gerovassiliou, was not analysed using the same laboratory.
 
-Details on the wet laboratory methods and links to the source data are found in the [wet laboratory][wetlab] folder.
+Details on the wet laboratory methods and links to the source data are found in the [wet laboratory][wetlab] document page.
 
 ### environmental DNA (eDNA)
 
 Environmental DNA (eDNA) is revolutionising the study of the soil microcosm, both the (groups of) species that exist, and the functions they perform. In soil, eDNA originate mainly from prokaryotes (bacteria and archaea), fungi, protists, plants and animals. The composition of DNA offers a snapshot of ecosystem diversity, function and health. The focus of the eDNA studies in AI4SH is on prokaryotes and fungi.
 
-Details on the eDNA methods and links to the source data are found in the [eDNA][edna] folder.
+Details on the eDNA methods and links to the source data are found in the [eDNA][edna] document page.
 
 ### Laboratory spectroscopy
 
@@ -121,7 +121,7 @@ Spectroscopy, the study of how electromagnetic radiation interacts with matter, 
 
 Laboratory spectrometry covers a larger spectral range, bridging from visible (VIS) via near infra-red (NIR) to mid-infrared (MIR) regions. Laboratory spectrometers also have higher spectral resolution and better precision. All samples collected within AI4SH were analysed with a a laboratory spectrometer at 0.5 nano-meter (nm) spectral resolution and covering the range 400 - 2500 nm (full VIS-NIR range). Soil attributes that can be estimated from the full VIS-NIR spectroscopy include for instance carbon, nitrogen and particle size distributions.
 
-Details on the spectroscopy methods and links to the source data are found in the [spectroscopy][spectroscopy] folder.   
+Details on the spectroscopy methods and links to the source data are found in the [spectroscopy][spectroscopy] document page.   
 
 ## Citizen scientist methods
 
@@ -131,43 +131,43 @@ The citizen scientist methods range from advanced enzymatic analysis using spect
 
 SEAR is a method developed by the Swiss startup [DigitSoil][digitsoil-home], a partner in the AI4SH project. In the SEAR method, fresh soil is placed on a reaction plate with 25 cells prepared for identifying 5 different key soil metabolic enzymes. Using built-in spectral analysis, the activity rate for each enzyme is reported in under an hour.
 
-Details on the Digit Soil SEAR method and links to the source data are found in the [enzymatic activity][digitsoil] folder.
+Details on the Digit Soil SEAR method and links to the source data are found in the [enzymatic activity][digitsoil] document page.
 
 ### Microbiometer
 
 [Microbiometer][microbiometer-home] is a commercially available kit for analysing soil microorganism carbon content and the ratio between bacteria:fungi. It requires a small soil sample (1 ml) and addition of a reactant that is stirred with the soil sample and then analysed using a reference plate and a smartphone app after 20 minutes. The results are presented immediately.
 
-Details on Microbiometer method and links to the source data are found in the [Microbiometer][microbiometer] folder.
+Details on Microbiometer method and links to the source data are found in the [Microbiometer][microbiometer] document page.
 
 ### Aggregate stability (Slakes/Moulder apps)
 
 Aggregate stability - clumps of soil particles held together as a result of biological (i.e. enzymatic) activity is well known for having beneficial effects on soil health. [The Soil Health Institute][soilhealthinstitute] developed the conceptual idea of soaking pie-sized dried soil aggregates in water and estimate stability from the disintegration of the soaked aggregate. University of Sydney developed this into a smartphone app that is freely applicable as a citizen scientist method for estimating soil aggregate stability. The app exists in 2 version, Slakes and Moulder, both available for Apple and Android smartphones. Within AI4SH, the method was tested on subsets of samples for some of the pilot sites.
 
-Details on the Slakes/Moulder app method and links to the source data are found in the [aggregate stability][aggregates] folder.
+Details on the Slakes/Moulder app method and links to the source data are found in the [aggregate stability][aggregates] document page.
 
 ### Citizen scientist spectroscopy
 
 Spectral instrument that can be used either directly in the field or in a home environment have developed rapidly over the past decade. The commercially available, better range of these instruments are suitable for soil spectroscopy. Ideally, the soil should be dried and sieved before analysis. This eliminates the nonlinear influence of water, and also the soil spectral reference libraries used for estimating soil attributes from the spectra typically are based on dried and sieved samples. Within AI4SH the handheld Neospectra scanner developed by [SI-ware][si-ware], sold to [Buchi][buchi_neospectra] in 2025 and rebranded [ProxiScout][proxiscout] was applied in a majority of the pilot sites. Most samples were analysed both in fresh (wet) conditions, and after drying and sieving.
 
-Details on the NeoSpectra/ProxiScout spectral method and links to the source data are found in the [spectroscopy][spectroscopy] folder.
+Details on the NeoSpectra/ProxiScout spectral method and links to the source data are found in the [spectroscopy][spectroscopy] document page.
 
 ### Bulk density and soil moisture content
 
 Soil compaction is one of the most serious threats to soil health. Many attempts have been made to quickly estimate bulk density, a proxy for soil compaction, in the field. Hitherto, to our knowledge, no successful direct field method has been presented. Instead a soil cylinder, with a very precise volume, is hammered into the soil with both ends open, then shaved at the openings and dried at 105<sup>o</sup> C. The net dry weight divided by the volume represents the bulk density. By measuring the weight loss over the drying, the method also produces an estimate of soil water content.
 
-Details on the bulk density soil cylinder method and links to the source data are found in the [bulk density and soil moisture content][bulkdensity] folder.
+Details on the bulk density soil cylinder method and links to the source data are found in the [bulk density and soil moisture content][bulkdensity] document page.
 
 ### Ion Selective Electrode (ISE)
 
 Ion selective electrodes are precision instruments used in laboratories. They measure the electrical potential over a membrane with a reference liquid on one side (the probe inside) and a (usually liquid) sample on the other. ISEs exist for many ions but pH ISEs are the most widely used. In the AI4SH project two kinds of pH ISEs were tested, one for direct soil analysis in the field, and one laboratory ISE analysis after dissolving the soil in distilled water at a ratio 1:5.
 
- Details on the pH Ion Selective Electrode method and links to the source data are found in the [pH ISE][ise] folder.
+ Details on the pH Ion Selective Electrode method and links to the source data are found in the [pH ISE][ise] document page.
 
 ### Electrical conductivity
 
 Electrical conductivity (EC) is an indication of salinity. Salinity is recognised as one of the major drivers of soil deterioration and a key soil health indicator identified for Europe. EC instruments based on the same technology as ISEs are available on the market, but where not tested. Instead the AI4SH in-situ studies included a simpler bi-pin electronic device measuring the resistance in a soil:water solution of 1:5. The tests where performed on soil brought to an indoor environment but using wet soils without prior drying.
 
-Details on the bi-pin electrical conductivity method and links to the source data are found in the [bi-pin salinity][salinity] folder.
+Details on the bi-pin electrical conductivity method and links to the source data are found in the [bi-pin salinity][salinity] document page.
 
 
 ## Direct layperson methods
@@ -178,19 +178,19 @@ A plethora of different layperson methods for estimating soil health does exists
 
 Miniaturisation and technical developments have led to several manufacturers of optical spectra sensors to develop integrated sensing units for combination with microcontrollers. As part of AI4SH we tested two miniature sensors from [Hamamatsu][hamamatsu] built into a casing about the size of a deck of cards and operated either via a computer or a bluetooth connected smartphone. The two selected sensors cover limited spectral ranges in the VIS and short NIR regions. These instruments were tested at a subset of the pilot sites, in most cases scanning both wet and dried and sieved samples. The layperson spectrometers tested in AI4SH were built by the Swedish startup [Xspectre][xspectre].
 
-Details on the Xspectre spectral method and links to the source data are found in the [spectroscopy][spectroscopy] folder.
+Details on the Xspectre spectral method and links to the source data are found in the [spectroscopy][spectroscopy] document page.
 
 ### Penetrometer
 
 A penetrometer is an instrument with 1 or more spikes of typically 5 to 10 cm length that is pushed into the soil directly in the field. Traditional penetrometers are analogue instruments used for evaluaing soil compaction, but more recent developments have led to small digital penetrometers that can observe a range of soil properties. Connected to a microcontroller and with a power supply of 5 V or more, these instruments can estimate soil moisture, electrical conductivity, salinity, pH and key nutrients. Laboratory tests show that they are capable of giving consistent, but sometimes biased, signals. Penetrometers were applied at a subset of the pilot sites. In AI4SH we tested a 5-pin penetrometer built with an interface developed by the Swedish startup [Xspectre][xspectre].
 
-Details on the Xspectre penetrometer method and links to the source data are found in the [penetrometer][penetrometer] folder.
+Details on the Xspectre penetrometer method and links to the source data are found in the [penetrometer][penetrometer] document page.
 
 ### Infiltration and soil hydraulic properties
 
 Soil infiltration capacity and other hydraulic properties including water holding capacity, are important properties that relate to flood, drought and erosion risks. A simple method for estimating these hydraulic properties is to insert a small (5-10 cm) cylinder with both ends open a few centimetres into the soil and then repeatedly pour a small fixed volume of water into the cylinder. From the time it takes for the soil to swallow the water, and its change with each sequential fill, the hydraulic properties can be estimated. A prerequisite is that the bulk density and initial and final soil moisture are known. These prerequisites, however, can be obtained with the above listed [penetrometer] instrument and a [soil cylinder][bulkdensity]. The single ring infiltration test was performed at a subset of the pilot site.
 
-Details on the infiltration method and links to the source data are found in the [infiltration][infiltration] folder.
+Details on the infiltration method and links to the source data are found in the [infiltration][infiltration] document page.
 
 ## Acknowledgments and Funding
 
@@ -199,6 +199,8 @@ This work is part of the AI4SoilHealth project, funded by the European Union's H
 _Funded by the European Union. The views expressed are those of the authors and do not necessarily reflect those of the European Union or the European Research Executive Agency._
 
 [AI4SH]: https://ai4soilhealth.eu
+
+[documentation]: https://ai4sh.github.io/in-situ_data_docs/docs/
 
 [buchi_neospectra]: https://www.walderwyss.com/en/news/2025-05-19_buchi-acquires-neospectra-platform-from-si-ware-systems
 
@@ -218,28 +220,28 @@ _Funded by the European Union. The views expressed are those of the authors and 
 
 [xspectre]: https://xspectre.com
 
-[aggregates]: ../docs/in-situ_methods/aggregates/
+[aggregates]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/aggregates/
 
-[bulkdensity]: ../docs/in-situ_methods/bulkdensity/
+[bulkdensity]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/bulkdensity/
 
-[edna]: ../docs/in-situ_methods/edna/
+[edna]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/edna/
 
-[digitsoil]: ../docs/in-situ_methods/digitsoil
+[digitsoil]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/digitsoil
 
-[spectroscopy]: ../docs/in-situ_methods/spectroscopy/
+[spectroscopy]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/spectroscopy/
 
-[infiltration]: ../docs/in-situ_methods/infiltration
+[infiltration]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/infiltration
 
-[ise]: ../docs/in-situ_methods/ise/
+[ise]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/ise/
 
-[microbiometer]: ../docs/in-situ_methods/microbiometer/
+[microbiometer]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/microbiometer/
 
-[penetrometer]: ../docs/in-situ_methods/penetrometer/
+[penetrometer]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/penetrometer/
 
-[salinity]: ../docs/in-situ_methods/salinity/
+[salinity]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/salinity/
 
-[spectroscopy]: ../docs/in-situ_methods/spectroscopy
+[spectroscopy]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/spectroscopy
 
-[wetlab]: ../docs/in-situ_methods/wetlab/
+[wetlab]: https://ai4sh.github.io/in-situ_data_docs/docs/in-situ_methods/wetlab/
 
 [in-situ_data]: https://github.com/AI4SH/in-situ_data
